@@ -57,3 +57,30 @@
   color: blue;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+  .movie-wrapper{
+    width: 80%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+  }
+
+  .movie-img{
+    width: 100%;
+  }
+
+  .movie-title{
+    width: auto;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .movie-search{
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    width: 80%;
+  }
+}
